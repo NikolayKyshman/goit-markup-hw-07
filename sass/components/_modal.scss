@@ -6,10 +6,9 @@
   left: 0;
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 1000ms, visibility 1000ms;
-}
-
-.backdrop.is-hidden .modal {
-  transform: scale(0.5);
+  &.is-hidden .modal {
+    transform: scale(0.5);
+  }
 }
 
 .modal {
@@ -44,11 +43,10 @@
   top: 8px;
   right: 8px;
   transition: fill 250ms var(--transition-cubic);
-}
-
-.modal-close:hover,
-.modal-close:focus {
-  fill: var(--logo-and-active-color);
+  &:hover,
+  &:focus {
+    fill: var(--logo-and-active-color);
+  }
 }
 
 .is-hidden {
@@ -80,14 +78,12 @@
   outline: none;
   transition: border-color 250ms var(--transition-cubic),
     fill 250ms var(--transition-cubic);
-}
-
-.form-input:focus {
-  border-color: var(--logo-and-active-color);
-}
-
-.form-input:focus + .modal-input-icon {
-  fill: var(--logo-and-active-color);
+  &:focus {
+    border-color: var(--logo-and-active-color);
+  }
+  &:focus + .modal-input-icon {
+    fill: var(--logo-and-active-color);
+  }
 }
 
 .input-text {
@@ -171,11 +167,6 @@
   fill: var(--first-color);
 }
 
-.input-button:hover,
-.input-button:focus {
-  background-color: #188ce8;
-}
-
 .modal-btn-text {
   font-family: inherit;
   font-size: 16px;
@@ -198,4 +189,8 @@
   margin: 0 auto;
   border: none;
   transition: 250ms var(--transition-cubic);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
