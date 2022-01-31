@@ -3,7 +3,7 @@
   padding-top: 0;
   padding-bottom: 94px;
 }
-.basic-title {
+.basic__title {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -23,17 +23,17 @@
   padding-left: 0;
 }
 
-.basic-item {
+.basic-list__item {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-.basic-item-wrap {
+.basic-list__item-wrap {
   position: relative;
 }
 
-.basic-text {
+.basic-list__text {
   position: absolute;
   bottom: 0;
   left: 0;

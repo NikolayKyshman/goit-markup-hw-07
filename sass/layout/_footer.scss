@@ -2,7 +2,7 @@
   background-color: var(--first-background-color);
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   padding-bottom: 60px; */
 }
 
-.footer-logo {
+.footer-adress-list__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
@@ -19,9 +19,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-and-active-color);
+  margin-bottom: 20px;
 }
 
-.footer-location {
+.footer-adress-list__location {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -33,8 +34,8 @@
   margin-bottom: 9px;
 }
 
-.footer-mail,
-.footer-tel {
+.footer-adress-list__mail,
+.footer-adress-list__tel {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -43,13 +44,21 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list {
+.footer-adress__list {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.join,
-.footer-follow {
+.footer__adress {
+  display: flex;
+  padding: 60px 0px;
+  /* padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 70px; */
+}
+
+.footer__footer-join,
+.footer-input__follow {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -60,23 +69,22 @@
   color: var(--first-color);
 }
 
-.footer-logo {
-  margin-bottom: 20px;
+.footer__footer-join {
+  padding-top: 72px;
+  padding-bottom: 100px;
+  margin-left: 70px;
 }
 
-.footer-list-conection {
-  margin-bottom: 9px;
-}
-
-.footer-adress {
+.footer-social {
   display: flex;
-  padding: 60px 0px;
-  /* padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 70px; */
+  margin-top: 20px;
 }
 
-.footer-social-link {
+.footer-social__icons + .footer-social__icons {
+  margin-left: 10px;
+}
+
+.footer-social__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -92,19 +100,8 @@
   }
 }
 
-.footer-list-icons {
-  display: flex;
-  margin-top: 20px;
-}
-
-.footer-social-icons + .footer-social-icons {
-  margin-left: 10px;
-}
-
-.footer-join {
-  padding-top: 72px;
-  padding-bottom: 100px;
-  margin-left: 70px;
+.footer-list-conection {
+  margin-bottom: 9px;
 }
 
 .footer-input {
@@ -114,7 +111,7 @@
   margin-left: auto;
 }
 
-.footer-input-mail {
+.footer-input__mail {
   width: 358px;
   height: 50px;
   background-color: transparent;
@@ -142,19 +139,19 @@
   }
 }
 
-.footer-wrap {
+.footer-input__wrap {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-form-icon {
+.footer-input__form-icon {
   fill: var(--first-color);
   margin-left: 10px;
 }
 
-.footer-form-btn {
+.footer-input__form-btn {
   width: 200px;
   height: 50px;
   display: flex;

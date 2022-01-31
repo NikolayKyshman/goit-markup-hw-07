@@ -15,11 +15,11 @@
   border-radius: 4px;
 }
 
-.specifics-icons {
+.specifics__icons {
   fill: #212121;
 }
 
-.about-title {
+.specifics__title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -30,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-.about-exemp-title {
+.specifics__exemp-title {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -40,7 +40,7 @@
   width: 270px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   margin-right: auto;
   margin-left: auto;

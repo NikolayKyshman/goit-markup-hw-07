@@ -17,7 +17,7 @@
   padding-left: 0;
 }
 
-.hero-title {
+.hero__title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -31,7 +31,7 @@
   margin: 0 auto;
 }
 
-.hero-btn {
+.hero__btn {
   background-color: var(--logo-and-active-color);
   padding-top: 10px;
   padding-right: 32px;
@@ -63,7 +63,7 @@
   }
 }
 
-.button.hero-btn {
+.button.hero__btn {
   display: flex;
   text-align: center;
 }
